@@ -7,7 +7,7 @@
     import { onMount } from 'svelte';
 
     // Get matchID from URL params and host status from query params
-    const matchID = $page.params.matchID;
+    const { matchID } = $page.data;
     const isHost = $page.url.searchParams.get('host') === 'true';
     
     // Create client with local multiplayer
