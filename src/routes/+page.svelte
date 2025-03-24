@@ -12,6 +12,7 @@
 				class="w-[33vh] h-auto mb-8 rounded-lg shadow-lg"
 			/>
 		</a>
+		<!--
 		<a href="/risklegacy">
 			<img
 				src="risklegacy/cover.webp"
@@ -19,5 +20,6 @@
 				class="w-[33vh] h-auto mb-8 rounded-lg shadow-lg"
 			/>
 		</a>
+	  -->
 	</div>
 </main>

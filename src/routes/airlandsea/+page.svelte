@@ -38,7 +38,7 @@
 				style="margin-right:1rem;"
 				on:click={() => {
 					if (lobbyCode.trim() == '') alert('Please enter a lobby code');
-					else gotoLobby(lobbyCode.trim());
+					else gotoLobby(lobbyCode.trim(), false);
 				}}
 			>
 				Join Lobby
