@@ -7,7 +7,7 @@
 	}
 
 	function gotoLobby(matchID: string, host: boolean = false) {
-		goto(`/game/${matchID}?host=${host}`);
+		goto(`/airlandsea/game/${matchID}?host=${host}`);
 	}
 
 	let lobbyCode: string = '';
