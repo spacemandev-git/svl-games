@@ -26,9 +26,9 @@
 	"type": "module",
 	"dependencies": {
 		"@types/node": "^22.13.11",
+		"bgio-postgres": "^1.0.15",
 		"boardgame.io": "^0.50.2",
 		"nanoid": "^5.0.7",
-		"node-persist": "^4.0.4",
 		"unique-names-generator": "^4.7.1"
 	}
 }
